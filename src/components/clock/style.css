@@ -1,0 +1,10 @@
+.clock {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.clock span {
+    display: flex;
+    font-weight: 300;
+    color: #2c3e50;
+}

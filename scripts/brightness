@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ "$1" -eq "get" ]; then
+    echo $(cat /sys/class/backlight/amdgpu_bl0/brightness)
+elif [ "$1" -eq "set" ]; then
+else
+    echo "error"
+fi
+
